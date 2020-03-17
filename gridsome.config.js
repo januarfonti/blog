@@ -7,6 +7,7 @@
 module.exports = {
   siteName: 'cuticuti.club',
   siteDescription: 'A journey of Januar Fonti',
+  siteUrl: 'https://cuticuti.club',
 
   templates: {
     Post: '/:title',
@@ -39,6 +40,23 @@ module.exports = {
       use: '@gridsome/plugin-google-analytics',
       options: {
         id: 'UA-55200754-2'
+      }
+    },
+    {
+      use: '@gridsome/plugin-sitemap',
+      options: {
+        cacheTime: 600000, // default
+        exclude: ['/exclude-me'],
+        config: {
+          '/*': {
+            changefreq: 'daily',
+            priority: 0.5
+          },
+          '/about': {
+            changefreq: 'monthly',
+            priority: 0.7
+          }
+        }
       }
     }
   ],
