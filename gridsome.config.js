@@ -5,8 +5,8 @@
 // To restart press CTRL + C in terminal and run `gridsome develop`
 
 module.exports = {
-  siteName: 'Gridsome Blog Starter',
-  siteDescription: 'A simple, hackable & minimalistic starter for Gridsome that uses Markdown for content.',
+  siteName: 'cuticuti.club',
+  siteDescription: 'A journey of Januar Fonti',
 
   templates: {
     Post: '/:title',
@@ -26,13 +26,18 @@ module.exports = {
             typeName: 'Tag',
             create: true
           }
+        },
+        remark: {
+          plugins: [
+            ['gridsome-plugin-remark-youtube']
+          ]
         }
       }
     }
   ],
 
   transformers: {
-    //Add markdown support to all file-system sources
+    // Add markdown support to all file-system sources
     remark: {
       externalLinksTarget: '_blank',
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
