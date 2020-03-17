@@ -17,9 +17,13 @@
 
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }} Januar Fonti. </span>
-      <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a> and <a href="https://zeit.co/">Zeit</a>.</span>
+      <span class="footer__links">Powered by <a href="//gridsome.org">Gridsome</a> and <a href="https://zeit.co/">Zeit</a>.</span>
       <ClientOnly>
-        <cookie-law theme="dark-lime"></cookie-law>
+        <cookie-law theme="blood-orange">
+           <div slot="message">
+            Howdy! Saat ini saya sedang proses migrasi konten dari alamat <a href="https://januarfonti.com" target="_blank">https://januarfonti.com</a> ke <a href="https://cuticuti.club" target="_blank">https://cuticuti.club</a>. Silahkan update bookmark anda ke alamat yang baru 😉.
+          </div>
+        </cookie-law>
       </ClientOnly>
     </footer>
 
@@ -44,6 +48,21 @@ export default {
 </script>
 
 <style lang="scss">
+.Cookie--blood-orange {
+  padding: .5em 1.25em !important;
+  opacity: .9;
+  .Cookie__content {
+    font-size: 12px;
+  }
+  .Cookie__button {
+    padding: .4em 3.125em !important;
+  }
+}
+
+pre {
+  font-size: 14px !important;
+}
+
 .header {
   display: flex;
   justify-content: space-between;
