@@ -8660,6 +8660,11 @@ timsort@^0.3.0:
   resolved "https://registry.yarnpkg.com/timsort/-/timsort-0.3.0.tgz#405411a8e7e6339fe64db9a234de11dc31e02bd4"
   integrity sha1-QFQRqOfmM5/mTbmiNN4R3DHgK9Q=
 
+tiny-cookie@^2.1.1:
+  version "2.3.2"
+  resolved "https://registry.yarnpkg.com/tiny-cookie/-/tiny-cookie-2.3.2.tgz#3b5fb4e0888cfa0b4728d5f6b7be3d3a88e6a5f0"
+  integrity sha512-qbymkVh+6+Gc/c9sqnvbG+dOHH6bschjphK3SHgIfT6h/t+63GBL37JXNoXEc6u/+BcwU6XmaWUuf19ouLVtPg==
+
 tiny-emitter@^2.0.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/tiny-emitter/-/tiny-emitter-2.1.0.tgz#1d1a56edfc51c43e863cbb5382a72330e3555423"
@@ -9251,6 +9256,13 @@ vue-analytics@^5.16.1:
   version "5.22.1"
   resolved "https://registry.yarnpkg.com/vue-analytics/-/vue-analytics-5.22.1.tgz#9d6b32da56daee1b9dfb23a267b50349a03f710f"
   integrity sha512-HPKQMN7gfcUqS5SxoO0VxqLRRSPkG1H1FqglsHccz6BatBatNtm/Vyy8brApktZxNCfnAkrSVDpxg3/FNDeOgQ==
+
+vue-cookie-law@^1.12.0:
+  version "1.12.0"
+  resolved "https://registry.yarnpkg.com/vue-cookie-law/-/vue-cookie-law-1.12.0.tgz#b200a37fb5d191ca03944d1b594d788e1d3571ec"
+  integrity sha512-Am8lHqGVD7P6iVkktVE7sZwqZz36oBBKJBBveXwCOOKA7U7XJNveO7kFxJPBrJwOzrsXjbxGIGibg5SpNlJkKg==
+  dependencies:
+    tiny-cookie "^2.1.1"
 
 vue-disqus@^3.0.5:
   version "3.0.5"

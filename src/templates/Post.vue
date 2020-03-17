@@ -21,7 +21,7 @@
       </div>
     </div>
 
-    <div class="post-comments">
+    <div class="post-comments content-box">
       <!-- Add comment widgets here -->
       <vue-disqus shortname="januarfonti" :identifier="$page.post.title"></vue-disqus>
     </div>

@@ -18,6 +18,7 @@
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }} Januar Fonti. </span>
       <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a> and <a href="https://zeit.co/">Zeit</a>.</span>
+      <cookie-law theme="dark-lime"></cookie-law>
     </footer>
 
   </div>
@@ -26,6 +27,7 @@
 <script>
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
+import CookieLaw from 'vue-cookie-law'
 
 export default {
   props: {
@@ -33,7 +35,8 @@ export default {
   },
   components: {
     Logo,
-    ToggleTheme
+    ToggleTheme,
+    CookieLaw
   }
 }
 </script>
