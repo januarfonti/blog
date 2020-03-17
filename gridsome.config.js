@@ -29,7 +29,8 @@ module.exports = {
         },
         remark: {
           plugins: [
-            ['gridsome-plugin-remark-youtube']
+            ['gridsome-plugin-remark-youtube'],
+            '@gridsome/remark-prismjs'
           ]
         }
       }
