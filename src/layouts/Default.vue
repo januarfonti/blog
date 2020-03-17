@@ -18,7 +18,9 @@
     <footer class="footer">
       <span class="footer__copyright">Copyright © {{ new Date().getFullYear() }} Januar Fonti. </span>
       <span class="footer__links">Powered by <a href="//gridsome.org"> Gridsome </a> and <a href="https://zeit.co/">Zeit</a>.</span>
-      <cookie-law theme="dark-lime"></cookie-law>
+      <ClientOnly>
+        <cookie-law theme="dark-lime"></cookie-law>
+      </ClientOnly>
     </footer>
 
   </div>
