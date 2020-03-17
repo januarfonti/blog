@@ -31,7 +31,9 @@ module.exports = {
         remark: {
           plugins: [
             ['gridsome-plugin-remark-youtube'],
-            '@gridsome/remark-prismjs'
+            ['gridsome-plugin-remark-prismjs-all', {
+              showLineNumbers: true //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+            }]
           ]
         }
       }
