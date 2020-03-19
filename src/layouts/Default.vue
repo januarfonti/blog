@@ -5,10 +5,6 @@
       <div class="header__left">
         <Logo v-if="showLogo" />
       </div>
-
-      <div class="header__right">
-        <ToggleTheme />
-      </div>
     </header>
 
     <main class="main">
@@ -26,7 +22,7 @@
         </cookie-law>
       </ClientOnly>
     </footer>
-
+    <MobileFooter/>
   </div>
 </template>
 
@@ -34,7 +30,7 @@
 import Logo from '~/components/Logo.vue'
 import ToggleTheme from '~/components/ToggleTheme.vue'
 import CookieLaw from 'vue-cookie-law'
-import '@/scss/all.scss'
+import MobileFooter from '~/components/MobileFooter.vue'
 
 export default {
   props: {
@@ -43,7 +39,8 @@ export default {
   components: {
     Logo,
     ToggleTheme,
-    CookieLaw
+    CookieLaw,
+    MobileFooter
   }
 }
 </script>

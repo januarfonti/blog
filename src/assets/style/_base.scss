@@ -26,3 +26,14 @@ a:not(.button) {
 img {
 	max-width: 100%;
 }
+
+  .Cookie--blood-orange {
+    padding: .5em 1.25em !important;
+    opacity: .9;
+    .Cookie__content {
+      font-size: 12px;
+    }
+    .Cookie__button {
+      padding: .4em 3.125em !important;
+    }
+  }
