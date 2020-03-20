@@ -34,6 +34,9 @@ module.exports = {
             ['gridsome-plugin-remark-youtube'],
             ['gridsome-plugin-remark-prismjs-all', {
               showLineNumbers: true //  `require("prismjs/plugins/line-numbers/prism-line-numbers.css");`
+            }],
+            ['gridsome-plugin-remark-twitter', {
+              debug: true
             }]
           ]
         }
@@ -84,7 +87,7 @@ module.exports = {
       externalLinksRel: ['nofollow', 'noopener', 'noreferrer'],
       anchorClassName: 'icon icon-link',
       plugins: [
-        '@gridsome/remark-prismjs'
+        // '@gridsome/remark-prismjs'
       ]
     }
   }
