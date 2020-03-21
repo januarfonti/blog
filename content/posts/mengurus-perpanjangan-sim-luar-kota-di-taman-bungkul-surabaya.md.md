@@ -4,6 +4,7 @@ date: 2018-01-23
 tags: ['Catatan']
 published: true
 canonical_url: true
+cover_image: ./images/mengurus-perpanjangan-sim-luar-kota-di-taman-bungkul-surabaya.jpg
 description: "Ketika tanggal ulang tahun sudah semakin dekat jangan lupa untuk mengecek masa berlaku SIM dan KTP kamu. Bisa dipastikan tanggal dan bulan habisnya masa berlaku SIM dan KTP kamu sama dengan tanggal lahir. Kebetulan tahun 2018 ini SIM C saya habis masa berlakunya."
 
 ---
