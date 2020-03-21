@@ -51,7 +51,7 @@ export default {
         { name: "twitter:description", content: this.$page.post.description },
         { name: "twitter:title", content: this.$page.post.title },
         { name: "twitter:site", content: "@januarfonti" },
-        { name: "twitter:image", content: this.$page.post.cover_image },
+        { name: "twitter:image", content: this.$page.post.cover_image.src },
         { name: "twitter:creator", content: "@januarfonti" }
       ]
     }
