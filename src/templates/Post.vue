@@ -45,21 +45,14 @@ export default {
     return {
       title: this.$page.post.title,
       meta: [
-        {
-          name: 'description',
-          content: this.$page.post.description
-        },
-        {
-          name: 'og:description',
-          name: 'og:description',
-          content: this.$page.post.description,
-        },
-
-        {
-          key: 'twitter:description',
-          name: 'twitter:description',
-          content: this.$page.post.description,
-        }
+        { name: 'description',content: this.$page.post.description },
+        // twitter-card: https://cards-dev.twitter.com/validator
+        { name: "twitter:card", content: "summary_large_image" },
+        { name: "twitter:description", content: this.$page.post.description },
+        { name: "twitter:title", content: this.$page.post.title },
+        { name: "twitter:site", content: "@januarfonti" },
+        { name: "twitter:image", content: this.getCoverImage },
+        { name: "twitter:creator", content: "@januarfonti" }
       ]
     }
   }
