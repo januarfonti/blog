@@ -11,12 +11,6 @@ description: "Ketika tanggal ulang tahun sudah semakin dekat jangan lupa untuk m
 
 Ketika tanggal ulang tahun sudah semakin dekat jangan lupa untuk mengecek masa berlaku SIM dan KTP kamu. Bisa dipastikan tanggal dan bulan habisnya masa berlaku SIM dan KTP kamu sama dengan tanggal lahir. Kebetulan tahun 2018 ini SIM C saya habis masa berlakunya.
 
-```css
-.test {
-    color: black
-}
-```
-
 Nah karena saat ini saya bekerja di Surabaya dan SIM saya SIM Malang kemudian saya biasanya baru pulang ke Malang hari Sabtu, browsing2 lah saya tentang perpanjangan SIM luar kota. Akhirnya dapat info kalau untuk di Surabaya, perpanjangan SIM luar kota bisa dilakukan di pelayanan SIM keliling  taman bungkul.
 
 Pelayanan SIM keliling di taman bungkul kalau menurut tulisan di mobilnya buka dari jam 09.00 sampai 14.30. Untuk persyaratannya sebagai berikut :
