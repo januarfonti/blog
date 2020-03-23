@@ -77,6 +77,14 @@ module.exports = {
         shouldTimeTravel: true
       }
       */
+    },
+    {
+      use: 'gridsome-plugin-robots',
+      options: {
+        host: 'https://cuticuti.club',
+        sitemap: 'https://cuticuti.club/sitemap.xml',
+        policy: [{ userAgent: '*', allow: '/' }]
+      }
     }
   ],
 

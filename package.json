@@ -16,6 +16,7 @@
     "gridsome-plugin-remark-prismjs-all": "^0.3.5",
     "gridsome-plugin-remark-twitter": "^0.2.1",
     "gridsome-plugin-remark-youtube": "^1.0.1",
+    "gridsome-plugin-robots": "^0.2.1",
     "gridsome-plugin-tailwindcss": "^2.2.43",
     "vue-cookie-law": "^1.12.0",
     "vue-disqus": "^3.0.5"
