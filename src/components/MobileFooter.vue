@@ -42,8 +42,7 @@ export default {
 		list-style: none;
 	}
 	.mobile-footer {
-		background: var(--bg-color);
-		border-top: 1px var(--border-color) solid;
+		background: var(--bg-secondary);
 		transition: color .6s, background-color .6s;
 		a{
 			color: var(--body-color);

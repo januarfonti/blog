@@ -1,13 +1,9 @@
 // Import main css
 import '~/assets/style/index.scss'
 import VueDisqus from 'vue-disqus'
-import 'prismjs/themes/prism.css'
 
 // Import default layout so we don't need to import it to every page
 import DefaultLayout from '~/layouts/Default.vue'
-
-require('prismjs/themes/prism-solarizedlight.css')
-require('prismjs/plugins/line-numbers/prism-line-numbers.css')
 
 // The Client API can be used here. Learn more: gridsome.org/docs/client-api
 export default function (Vue, { router, head, isClient }) {
