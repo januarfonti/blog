@@ -8,6 +8,7 @@ cover_image: ./images/Tugu-Khatulistiwa-Pontianak.jpg
 canonical_url: false
 description: "Perjalanan kali ini berawal dari ada sepupu saya yang nikanan di Sampit dan berpikiran sayang juga kalau udah sampai Sampit kemudian cuma datang ke acara nikahannya terus pulang ke Malang. Akhirnya munculah ide perjalanan keliling borneo sisi barat."
 ---
+Perjalanan kali ini berawal dari ada sepupu saya yang nikanan di Sampit dan berpikiran sayang juga kalau udah sampai Sampit kemudian cuma datang ke acara nikahannya terus pulang ke Malang. Akhirnya munculah ide perjalanan keliling borneo sisi barat.
 
 Setelah cari-cari informasi di internet enaknya ambil rute kemana saja dapatlah ide rute perjalanan darat sebagai berikut :
 

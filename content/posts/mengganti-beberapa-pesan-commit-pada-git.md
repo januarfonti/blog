@@ -8,6 +8,7 @@ cover_image: ./images/mengganti-pesan-commit-pada-git.jpg
 canonical_url: false
 description: "Pernahkah kamu ingin mengganti beberapa pesan commit yang telah kamu push ke repo ? Jadi gini contoh kasusnya, pada commit-an sebelumnya saya salah menulis nomor tiket CFPD-9062 yang seharusnya CFPD-9602."
 ---
+Pernahkah kamu ingin mengganti beberapa pesan commit yang telah kamu push ke repo ? Jadi gini contoh kasusnya, pada commit-an sebelumnya saya salah menulis nomor tiket CFPD-9062 yang seharusnya CFPD-9602.
 
 Untuk menggantinya bisa menggunakan langkah-langkah dibawah ini, pertama buka daftar 10 commit-an terakhir kita. Angka 10 bisa diganti dengan berapapun.
 
