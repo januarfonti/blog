@@ -114,8 +114,9 @@ query Post ($id: ID!) {
     }
 
     img {
-      width: calc(100% + var(--space) * 2);
-      margin-left: calc(var(--space) * -1);
+      width: 80%;
+      margin-left: auto;
+      margin-right: auto;
       display: block;
       max-width: none;
     }
