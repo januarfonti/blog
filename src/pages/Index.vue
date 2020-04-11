@@ -2,15 +2,11 @@
   <Layout :show-logo="false">
     <!-- Author intro -->
     <Author :show-title="true" />
-    <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
-      <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+    <div class="container mx-auto py-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <PostCard v-for="edge in $page.posts.edges" :key="edge.node.id" :post="edge.node"/>
+      </div>
     </div>
-    
-    <!-- List posts -->
-    <div class="posts">
-      
-    </div>
-
   </Layout>
 </template>
 
