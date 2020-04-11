@@ -1,6 +1,6 @@
 // Default variables
 html {
-	--base-font-size: 20px;
+	--base-font-size: 14px;
 }
 
 // Light default theme
@@ -13,7 +13,7 @@ body {
  	--title-color: #111;
  	--link-color: #6b17e6;
  	--border-color:  rgba(0,0,0,.1);;
-  --space: 3.5rem;
+  --space: 1.5rem;
   --content-width: 860px;
   --header-height: 80px;
   --radius: 5px;
@@ -22,7 +22,7 @@ body {
 // Make  things smaller for mobile
 @media screen and (max-width: 650px) {
 	html {
-		--base-font-size: 17px;
+		--base-font-size: 14px;
 	}
 	body {
 		--space: 1.5rem;
