@@ -4,8 +4,10 @@
       # {{ $page.tag.title }}
     </h1>
 
-    <div class="posts">
-      <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+    <div class="container mx-auto py-24">
+      <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5">
+        <PostCard v-for="edge in $page.tag.belongsTo.edges" :key="edge.node.id" :post="edge.node"/>
+      </div>
     </div>
   </Layout>
 </template>
@@ -19,6 +21,7 @@ query Tag ($id: ID!) {
         node {
           ...on Post {
             title
+            cover_image (width: 770, height: 380, blur: 10)
             path
             date (format: "D. MMMM YYYY")
             timeToRead

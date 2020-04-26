@@ -1,6 +1,6 @@
 <template>
   <Layout>
-    <div class="post-title">
+    <div class="post-title mb-20">
       <h1 class="post-title__text">
         {{ $page.post.title }}
       </h1>
@@ -14,7 +14,7 @@
         <g-image alt="Cover image" v-if="$page.post.cover_image" :src="$page.post.cover_image" />
       </div>
 
-      <div class="post__content" v-html="$page.post.content" />
+      <div class="post__content mt-5" v-html="$page.post.content" />
 
       <div class="post__footer">
         <PostTags :post="$page.post" />
@@ -124,6 +124,7 @@ query Post ($id: ID!) {
 }
 
 .post-comments {
+  margin-top: 3em;;
   padding: calc(var(--space) / 2);
 
   &:empty {

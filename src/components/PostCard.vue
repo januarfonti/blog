@@ -1,14 +1,15 @@
 <template>
-  <div class="post-card content-box" :class="{'post-card--has-poster' : post.poster}">
+  <div class="post-card content-box flex flex-col" :class="{'post-card--has-poster' : post.poster}">
     <div class="post-card__header">
       <g-image alt="Cover image" v-if="post.cover_image" class="post-card__image" :src="post.cover_image" />
     </div>
-    <div class="post-card__content py-3">
-      <h4 class="post-card__title" v-html="post.title" />
+    <div class="post-card__content py-3 flex flex-col flex-grow">
+      <h4 class="post-card__title mb-2" v-html="post.title" />
+      <PostMeta class="post-card__meta mb-5" :post="post" />
       <p class="post-card__description" v-html="post.description" />
 
-      <PostMeta class="post-card__meta" :post="post" />
-      <PostTags class="post-card__tags" :post="post" />
+
+      <PostTags class="post-card__tags flex" :post="post" />
 
       <g-link class="post-card__link" :to="post.path">Link</g-link>
     </div>
@@ -61,6 +62,7 @@ export default {
   &__tags {
     z-index: 1;
     position: relative;
+    margin-top: auto;
   }
 
   &__link {
